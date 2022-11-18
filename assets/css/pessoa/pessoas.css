@@ -3,3 +3,22 @@
     padding-top: 3rem;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 0) {
+    .pessoas{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas{
+        flex-direction: row;
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pessoas{
+        gap: 0;
+    }
+}
